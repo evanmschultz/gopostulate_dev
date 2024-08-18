@@ -1,8 +1,8 @@
-# GoPostulate
+# Titmouse
 
 > Note: This project is currently in the very early stages of development and is not yet ready for use of any kind.
 
-GoPostulate is a full-stack web application framework inspired by NextJS, leveraging the power of Go and complementary technologies. It is designed to facilitate the rapid development of performant, Server-Side Rendered (SSR) Single Page Applications (SPA) with dynamic capabilities.
+Titmiuse is a full-stack web application framework inspired by NextJS, leveraging the power of Go and complementary technologies. It is designed to facilitate the rapid development of performant, Server-Side Rendered (SSR) Single Page Applications (SPA) with dynamic capabilities.
 
 ## Core Technologies
 
@@ -30,14 +30,14 @@ GoPostulate is a full-stack web application framework inspired by NextJS, levera
 To create a new GoPostulate project:
 
 ```bash
-go run cmd/gopostulate/main.go new --name my-project
+go run cmd/titmouse/main.go new --name my-project
 cd my-project
 go run cmd/app/main.go
 ```
 
 ## Project Structure
 
-GoPostulate provides a standardized project structure to help you organize your code effectively:
+Titmouse provides a standardized project structure to help you organize your code effectively:
 
 ```
 my-project/
@@ -51,7 +51,7 @@ my-project/
 └── .gitignore
 ```
 
-For more details on the project structure and how to use GoPostulate, please refer to our [Getting Started Guide](docs/getting-started.md).
+For more details on the project structure and how to use Titmouse, please refer to our [Getting Started Guide](docs/getting-started.md).
 
 ## Documentation
 
@@ -67,4 +67,4 @@ We welcome contributions! Please see our [Contributing Guide](docs/contributing.
 
 ## License
 
-GoPostulate is released under the MIT License.
+Titmouse is released under the MIT License.
